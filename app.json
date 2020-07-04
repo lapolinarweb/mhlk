@@ -1,0 +1,23 @@
+{
+  "name": "hello-WORLD",
+  "description": "mybot",
+  "scripts": {
+    "postdeploy": "lapolinar1",
+    "pr-predestroy": "lapolinar1"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
